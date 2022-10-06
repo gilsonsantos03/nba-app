@@ -17,7 +17,6 @@ final class DetailView: UIView {
     
     private let abbreviationLabel: UILabel = {
         let label = UILabel()
-        label.text = "1212122"
         return label
     }()
     
