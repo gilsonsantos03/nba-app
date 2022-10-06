@@ -1,8 +1,8 @@
 import UIKit
 
-public enum HomeConfigurator {
+public struct HomeConfigurator {
 
-    public static func resolve() -> UIViewController {
+    public func resolve() -> UIViewController {
         let router = HomeRouter()
         let presenter = HomePresenter()
         let teamsRepository = TeamsRepository()
