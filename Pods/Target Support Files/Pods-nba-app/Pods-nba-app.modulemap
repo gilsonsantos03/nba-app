@@ -1,0 +1,6 @@
+module Pods_nba_app {
+  umbrella header "Pods-nba-app-umbrella.h"
+
+  export *
+  module * { export * }
+}
